@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+	int alpha = 13;
+	cout << "alpha = " << alpha << " | тип: int, размер: 4 б." << endl;
+	short delta = 3;
+	cout << "delta = " << delta << " | тип: short, размер: 2 б." << endl;
+	float grey = 1.4;
+	cout << "grey = " << grey << " | тип: float, размер: 4 б." << endl;
+	double red = 1.47;
+	cout << "red = " << red << " | тип: double, размер: 8 б." << endl;
+	char krey = 'a';
+	cout << "krey = " << krey << " | тип: char, размер: 1 б." << endl;
+}
