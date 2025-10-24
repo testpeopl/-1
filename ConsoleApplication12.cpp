@@ -22,10 +22,15 @@ int main()
         result = num1 * num2;
         cout << result << endl;
     }
-    else if (operation == '/'){
-        if (num2 !=0)
-        result = num1 / num2;
-        cout << 
+    else if (operation == '/') {
+        if (num2 != 0)
+            result = num1 / num2;
+        cout << result << endl;
+    }
+    else {
+        cout << "делить на 0 нельзя" << endl;
+    }
+
 
 
 
