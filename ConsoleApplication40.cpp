@@ -1,17 +1,19 @@
 ﻿#include <iostream>
 using namespace std;
-	int main() {
-		setlocale(0, "");
-		int i;
-		cout << "Введите число:";
-	    cin >> i;
-			while (i > 0) {
-
-			 cout <<"Отсчет: " << i << endl;
-			
-				i--;
-			
-			}
-			cout << "Старт!";
-			return 0;
+int main() {
+	setlocale(0, "");
+	int num;
+	int sum = 0;
+	int u = 0;
+	cout << "напиши число: ";
+	cin >> num;
+	while (num != 0) {
+		sum += num;
+		cout << "введите ещё число: ";
+		cin >> num;
+		u++;
+	}
+	cout << "сумма: " << sum << endl;
+	cout << "Количество чисел: " << u << endl;
+	return 0;
 }
